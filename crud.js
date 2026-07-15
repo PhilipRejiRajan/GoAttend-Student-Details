@@ -127,8 +127,6 @@ closeViewBtn.addEventListener("click", function () {
     viewModal.close();
 });
 
-// ---------- Update Student ----------
-
 openEditBtn.addEventListener("click", function () {
     const students = getStudents();
     const student = students.find(function (s) {
