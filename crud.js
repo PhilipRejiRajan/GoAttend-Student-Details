@@ -136,7 +136,6 @@ openEditBtn.addEventListener("click", function () {
         return;
     }
 
-    // Pre-fill the edit form with this student's current details
     document.getElementById("edit-id").value = student.id;
     document.getElementById("edit-name").value = student.name;
     document.getElementById("edit-email").value = student.email;
